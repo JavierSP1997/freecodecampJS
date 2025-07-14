@@ -1,4 +1,3 @@
-/* Reset básico (puedes usar el de Meyer que te pasé) */
 *,
 *::before,
 *::after {
@@ -31,7 +30,6 @@ body {
   user-select: none;
 }
 
-/* Estadísticas principales */
 #stats {
   display: flex;
   justify-content: space-between;
@@ -47,8 +45,6 @@ body {
 .stat {
   padding-right: 20px;
 }
-
-/* Controles (botones) */
 #controls {
   display: flex;
   justify-content: center;
@@ -74,17 +70,8 @@ button {
   letter-spacing: 0.03em;
 }
 
-button:hover,
-button:focus {
-  background: linear-gradient(145deg, #ffb84d, #ffc75c);
-  box-shadow: 0 0 20px #ffb84daa;
-  transform: translateY(-3px);
-  outline: none;
-}
-
-/* Stats del monstruo */
 #monsterStats {
-  display: none; /* Se mostrará con JS */
+  display: none; 
   border: 1.5px solid #0a0a23;
   padding: 15px 20px;
   color: #ffffff;
@@ -96,7 +83,6 @@ button:focus {
   font-weight: 600;
 }
 
-/* Texto descriptivo */
 #text {
   background-color: #0a0a23;
   color: #ffffff;
@@ -108,7 +94,7 @@ button:focus {
   box-shadow: inset 0 0 10px #000000aa;
 }
 
-/* Responsive para móvil */
+
 @media (max-width: 480px) {
   #game {
     width: 95vw;
