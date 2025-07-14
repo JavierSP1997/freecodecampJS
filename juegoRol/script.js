@@ -79,19 +79,26 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 function update(location) {
-
+  monsterStats.style.display = "none";
+  button1.innerText = location["button text"][0];
+  button2.innerText = location["button text"][1];
+  button3.innerText = location["button text"][2];
+  button1.onclick = location["button functions"][0];
+  button2.onclick = location["button functions"][1];
+  button3.onclick = location["button functions"][2];
+  text.innerHTML = location.text;
 }
 
 function goTown() {
-
+  update(locations[0]);
 }
 
 function goStore() {
-
+  update(locations[1]);
 }
 
 function goCave() {
-
+  update(locations[2]);
 }
 
 function buyHealth() {
