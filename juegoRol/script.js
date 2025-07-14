@@ -54,7 +54,7 @@ const lugares = [
   },
   {
     name: "cueva",
-    "button text": ["Luchar contra baba", "Luchar contra bestia dentada", "Ir a la plaza del pueblo"],
+    "button text": ["Luchar contra monstruo baboso", "Luchar contra bestia dentada", "Ir a la plaza del pueblo"],
     "button functions": [lucharBaba, lucharBestia, irPlaza],
     text: "Entras en la cueva. Ves algunos monstruos."
   },
